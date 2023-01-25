@@ -49,7 +49,7 @@ def systemID_input_gen_fcn(signal_duration_in_seconds, pass_chance, max_in, min_
 		pass_rand = np.random.uniform(0,1,1)
 	
 		if pass_rand < pass_chance:
-			gen_input[i] = ((max_in-min_in)*np.random.uniform(0,1,1)) + min_in
+			gen_input[i] = ((max_in-min_in) * np.random.uniform(0,1,1)) + min_in
 		else:
 			gen_input[i] = gen_input[i-1]
 
@@ -117,5 +117,5 @@ def kinematics_activations_show_fcn(vs_time=False, timestep=0.01, **kwargs):
 	plt.show(block=True)
  
 def run_activations_fcn(activations, timestep):
-    return 0;
+    return 0
     #Todo
