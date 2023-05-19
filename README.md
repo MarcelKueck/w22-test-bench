@@ -1,3 +1,7 @@
+Trailer: https://www.youtube.com/watch?v=as4rGx1AHN8
+
+Presentation: https://www.youtube.com/watch?v=MKyQ8viW0-g (Start at 58:00)
+
 # Joint test bench
 
 # SW
